@@ -1,0 +1,30 @@
+{
+  "name": "cash",
+  "version": "1.0.0",
+  "description": "cash control system",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yubisel/cash.git"
+  },
+  "keywords": [
+    "cash"
+  ],
+  "author": "Ing. Yubisel Vega Alvarez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Yubisel/cash/issues"
+  },
+  "homepage": "https://github.com/Yubisel/cash#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
